@@ -525,3 +525,13 @@ textarea {
     text-decoration: none;
     color: white;
 }
+
+.contactinfotext {
+    width: 250px;
+    /* background-color: aquamarine; */
+    color: white;
+    font-family: "Laila";
+    position: relative;
+    float: right;
+
+}
