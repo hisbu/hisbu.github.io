@@ -139,12 +139,12 @@ body {
 .navbar {
     background-color: black;
     list-style: none;
-    width: 80%;
+    width: 75%;
     /* padding: 10px; */
     float: right;
     position: relative;
     font-family: "Laila";
-    text-align: left;
+    /* text-align: left; */
     /* margin-right: 30px; */
     /* display: inline-block; */
 
@@ -243,7 +243,7 @@ body {
 }
 
 #package {
-    background-image: url(../material/elis.jpg);
+    background-image: url(../material/IMG_0072.JPG);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -257,7 +257,7 @@ body {
 }
 
 #galery {
-    background-image: url(../material/as.jpg);
+    background-image: url(../material/IMG_2844.JPG);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -345,16 +345,18 @@ body {
     width: 90%;
     margin: 0 auto;
 
+
 }
 
 .galery-list {
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
-    grid-gap: 2%;
-    background-color: #fff;
+    grid-gap: 6% 5%;
+    /* background-color: #fff; */
     color: #444;
     width: 90%;
     margin: 0 auto;
+    margin-left: 90px;
 
 }
 
@@ -367,19 +369,56 @@ body {
     font-size: 150%;
     width: 100%;
     /* margin: 0 auto; */
-    text-align: center
+    text-align: center;
+    border-style: solid;
+    border: 5px;
+    border-radius: 5px;
+    border-color: white;
+    list-style: none;
 }
+
+.box li {
+    font-family: "Laila";
+    list-style: none;
+    font-size: 14px;
+}
+
+.box p {
+    font-family: "Laila";
+    list-style: none;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
+.box h2 {
+    font-family: "Dancing Script";
+}
+
+.box h4 {
+    font-family: "Laila";
+    font-size: 14px;
+}
+
+
 
 .box-galery {
     /* margin: 0 auto; */
-    background-color: #444;
+    /* background-color: #444; */
     color: #fff;
-    border-radius: 5px;
-    padding: 20px;
+    /* border-radius: 5px; */
+    /* padding: 20px; */
     font-size: 150%;
     width: 100%;
     margin: 0 auto;
-    text-align: center
+    /* text-align: center; */
+    overflow: hidden;
+    position: relative;
+    /* box-shadow: 10px 10px 5px white; */
+    /* box-shadow:
+        -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5); */
 }
 
 footer {
@@ -466,4 +505,23 @@ input[type=date] {
 textarea {
     width: 100%;
     padding: 12px 20px;
+}
+
+.load {
+    color: white;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 7px;
+    text-align: center;
+    width: 10%;
+    margin: 0 auto;
+    font-family: "laila";
+    /* text-decoration: none; */
+
+}
+
+.load a {
+    text-decoration: none;
+    color: white;
 }
